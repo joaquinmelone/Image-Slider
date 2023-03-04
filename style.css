@@ -61,6 +61,8 @@ body {
     background-color: #bbb;
 }
 
+/* SELECT BUBBLES */
+
 .buttons {
     display: flex;
     justify-content: space-evenly;
@@ -82,4 +84,8 @@ body {
     border-radius: 50%;
 
     cursor: pointer;
+}
+
+.select-button.current {
+    background-color: red;
 }
